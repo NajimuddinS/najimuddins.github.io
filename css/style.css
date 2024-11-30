@@ -127,6 +127,16 @@ textarea {
   margin: auto;
   width: 92%; }
 
+.main-container-s {
+  max-width: 120rem;
+  margin: auto;
+  width: 92%; }
+
+.main-container-s {
+  max-width: 120rem;
+  margin: auto;
+  width: 92%; }
+
 .btn {
   background: #fff;
   color: #333;
@@ -279,6 +289,20 @@ textarea {
   background: #e6f0fa; 
   height: 800px;
 }
+@media only screen and (max-width: 56.25em) {
+  .skill-s {
+    background: #e6f0fa; 
+    height: 1500px;
+  } }
+
+  @media only screen and (max-width: 37.5em) {
+    .skill-s {
+      background: #e6f0fa; 
+      height: 2200px;
+    } }
+
+
+
 
 .projects__row {
   display: grid;
@@ -761,8 +785,8 @@ textarea {
       box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
     }
     
-    @media (max-width: 600px) {
+    /* @media (max-width: 600px) {
       .grid {
         grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
       }
-    }
+    } */
