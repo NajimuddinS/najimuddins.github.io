@@ -38,9 +38,9 @@ headerLogoConatiner.addEventListener('click', () => {
 })
 
 function downloadAndOpen() {
-  window.open('https://drive.google.com/file/d/156hPsJpBs91igC9izFF0HBnaYcbAjM22/view?usp=drive_link', '_blank');
+  window.open('https://drive.google.com/file/d/1HpGrmZisF88ARpW6PFyrRysFJyCsMl9n/view?usp=drive_link', '_blank');
   var link = document.createElement('a');
-  link.href = 'https://drive.google.com/uc?export=download&id=156hPsJpBs91igC9izFF0HBnaYcbAjM22';
+  link.href = 'https://drive.google.com/uc?export=download&id=1HpGrmZisF88ARpW6PFyrRysFJyCsMl9n';
   link.download = 'CV';
   link.click();
 }
