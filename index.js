@@ -41,6 +41,8 @@ function downloadAndOpen() {
   window.open('https://drive.google.com/file/d/1HpGrmZisF88ARpW6PFyrRysFJyCsMl9n/view?usp=drive_link', '_blank');
   var link = document.createElement('a');
   link.href = 'https://drive.google.com/uc?export=download&id=1HpGrmZisF88ARpW6PFyrRysFJyCsMl9n';
+
+//OP
   link.download = 'CV';
   link.click();
 }
